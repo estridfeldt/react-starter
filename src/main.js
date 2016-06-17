@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SampleComponent from './sample-component';
 
-ReactDOM.render(<h1>Hello sample</h1>, document.getElementById('content'));
+ReactDOM.render(<SampleComponent/>, document.getElementById('content'));
 
