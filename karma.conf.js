@@ -4,7 +4,8 @@ var webpack = require('webpack');
 module.exports = function (config) {
     config.set({
 
-        browsers: [ process.env.CONTINUOUS_INTEGRATION ? 'Firefox' : 'Chrome' ],
+//        browsers: [ 'Chrome', 'PhantomJS' ],
+        browsers: [ 'PhantomJS' ],
 
         singleRun: true,
 
